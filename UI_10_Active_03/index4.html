@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>나의 홈페이지</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            width: 100vw;
+            height: 100vh;
+        }
+
+        nav {
+            background-color: white;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+            color: black;
+        }
+
+        nav li {
+            padding: 12px 36px;
+            border-bottom: 3px solid transparent;
+            transition: border 1s ease-out;
+        }
+
+        nav li:hover {
+            border-bottom: 3px solid green;
+        }
+
+        div {
+            background-attachment: fixed;
+            background-size: cover;
+            background-repeat: no-repeat;
+            position: relative;
+        }
+
+        div:nth-of-type(1) {
+            background-image: url("./images/image\(1\).jpg");
+            min-height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        div:nth-of-type(1) h1 {
+            background-color: #111;
+            color: #fff;
+            padding: 30px 40px;
+            font-size: 25px;
+            border-radius: 10px;
+            box-shadow: 1px 1px 1px rgba(0.7);
+        }
+
+        div:nth-of-type(2) {
+            color: #777;
+            background-color: white;
+            text-align: center;
+            padding: 50px 80px;
+        }
+
+        div:nth-of-type(2) h3 {
+            text-transform: uppercase;
+        }
+
+        div:nth-of-type(3) {
+            background-image: url("./images/image\(3\).jpg");
+            min-height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-shadow: 1px 1px 1px black;
+        }
+
+        div:nth-of-type(4) {
+            color: #ddd;
+            background-color: #282e34;
+            padding: 50px 80px;
+            justify-content: center;
+            text-align: center;
+        }
+
+        div:nth-of-type(5) {
+            background-image: url("./images/image\(5\).jpg");
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        div:nth-of-type(5) h3 {
+            color: #f7f7f7;
+            font-size: 25px;
+            background-color: transparent;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li>HOME</li>
+            <li>공지사항</li>
+            <li>자유게시판</li>
+            <li>로그인</li>
+            <li>회원가입</li>
+        </ul>
+    </nav>
+
+    <div>
+        <h1>안녕하세요</h1>
+    </div>
+    <div>
+        <h3>Republic of Korea</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto blanditiis nisi numquam ea voluptate,
+            culpa consectetur nemo assumenda esse consequuntur non libero perferendis id, dolores aliquid quibusdam
+            veritatis odit. Labore.</p>
+    </div>
+    <div>
+        <h2>ViVa Korea</h2>
+    </div>
+    <div>
+        <p>하늘을 우러러 한점 부끄럼 없으니</p>
+    </div>
+    <div>
+        <h3>대한민국</h3>
+    </div>
+
+</body>
+
+</html>
